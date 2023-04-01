@@ -4,16 +4,44 @@ const initialState = {
   buckets: [
     {
       key: "1",
-      label: "SNL Videos",
+      label: "TV Shows",
       videos: [
-        { link: "GfqjuRwqzZE", title: "Video 1" },
-        { link: "QZvClZxlkYE", title: "Video 2" },
+        {
+          link: "nhB5oQgQpOI",
+          title: "How I Met Your Mother Alternate Ending",
+        },
+        { link: "XYzfGMihLjQ", title: "Modern Family" },
+        { link: "gO8N3L_aERg", title: "Fire Drill - The Office" },
+        { link: "uuSwnbb65f4", title: "Cold Opens Parks and Rec" },
+        { link: "rNCKPt0ghqs", title: "Game Night - TBBT" },
       ],
     },
     {
       key: "2",
       label: "Songs",
-      videos: [{ link: "wIft-t-MQuE", title: "Video 1" }],
+      videos: [
+        { link: "YcSP1ZUf1eQ", title: "Nonsense - Sabrina Carpenter" },
+        { link: "mt9xg0mmt28", title: "Tum Se Hi - Jab We Met" },
+        { link: "uPD0QOGTmMI", title: "Die For You - Weeknd" },
+        { link: "fdubeMFwuGs", title: "Ilahi - Yeh Jawani Hai Deewani" },
+        { link: "SmaY7RfBgas", title: "Gul - Anuv Jain" },
+        { link: "mWRsgZuwf_8", title: "Demons - Thunder" },
+        { link: "YykjpeuMNEk", title: "Hymn for the Weekend - Coldplay" },
+      ],
+    },
+    {
+      key: "3",
+      label: "Marvel",
+      videos: [
+        {
+          link: "sj9J2ecsSpo",
+          title: "Wanda Vision Trailer",
+        },
+        {
+          link: "5VYb3B1ETlk",
+          title: "Hawkeye Trailer",
+        },
+      ],
     },
   ],
   active: 1,
